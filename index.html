@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="stylesheet" href="CSS/about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Blog | Trip</title>
+  </head>
+  <header class="sticky-top" data-bs-theme="white">
+    <div class="navbar navbar-dark shadow-sm">
+      <div class="container">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+          <!-- Add some icon or image fot the blog logo-->
+          <h1>Blog | Trip</h1>
+        </a>
+
+        <button
+          class="navbar-toggler collapsed"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarHeader"
+          aria-controls="navbarHeader"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+    <div class="subNav collapse" id="navbarHeader" style="">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-1 col-md-1 py-2">
+            <a href="index.html"><h5>Home</h5></a>
+          </div>
+          <div class="col-sm-3 col-md-1 py-2">
+            <a href="about.html"> <h5>About</h5></a>
+          </div>
+          <div class="col-sm-3 col-md-1 py-2">
+            <a href="#"> <h5>FAQ</h5></a>
+          </div>
+          <div class="col-sm-4 col-md-7 py-2">
+            <a href="register.html"> <h5>Contact</h5></a>
+          </div>
+
+          <div class="col-sm-3 col-md-2 py-2">
+            <div class="d-flex justify-content-center h-100">
+              <div class="searchbar">
+                <input
+                  class="search_input"
+                  type="search"
+                  name=""
+                  placeholder="Search..."
+                  style="font-family: arial"
+                />
+                <a href="#" class="search_icon"
+                  ><i class="fas fa-search"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+<body>
+    <main
+    class="hide loginForm"
+    style="font-family: Arial, Helvetica, sans-serif"
+  >
+    <i class="fa-solid fa-x close"></i>
+    <h2 class="loginHead">Post</h2>
+    <form action="/submit" method="POST">
+      <label for="theName">Name</label>
+      <input type="text" name="theName" placeholder="Enter name" required />
+      <label for="surName">Surname</label>
+      <input type="text" name="sName" placeholder="Enter Surname" required />
+      <label for="title">Title</label>
+      <input type="text" name="title" placeholder="Enter title" required />
+      <label for="History">Your History</label>
+      <textarea name="history" id="history"></textarea>
+      <input type="submit" value="Post" />
+    </form>
+  </main>
+
+    <!--Social Media-->
+    <div class="socialMedia">
+        <div class="container_flex">
+          <ul class="theList">
+            <a href="#" class=""><i class="fa-brands fa-github"></i></a>
+  
+            <a href="#" class=""><i class="fa-brands fa-facebook"></i></a>
+  
+            <a href="#" class=""><i class="fa-brands fa-instagram"></i></a>
+  
+            <a href="#" class=""><i class="fa-brands fa-x-twitter"></i></a>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- Btn Get Stared-->
+      <div class="theBtn">
+        <button class="btn1 btn-dark addPost1" style="font-family: arial">
+          Get started
+        </button>
+      </div>
+  
+      <div class="overlay hide"></div>
+    <div class="container">
+    <div class="row g-2">
+        <div class="col-md-7">
+          <h3 class="pb-4 mb-4 fst-italic border-bottom py-4"></h3>
+    
+          <article class="blog-post">
+                    <h2 class="display-5 link-body-emphasis mb-1">Articles</h2>
+                    <br>
+                    <h3>Top 3 cities to visit in 2024</h3>
+                    <p>Here are some of the best cities to visit in 2024, based on trends, cultural events, and unique attractions:</p>
+                    <p><strong>1. Tokyo, Japan</strong> - With the completion of several major projects and the return of international events, Tokyo remains a top destination for its blend of modernity and tradition.</p>
+                    <p> <strong> 2. Rome, Italy</strong> - Rome’s rich history and new archaeological discoveries make it an evergreen favorite, enhanced by ongoing restorations and exhibitions.</p>
+                    <p><strong>3.	Lisbon, Portugal</strong> - Known for its picturesque streets, historic architecture, and culinary delights, Lisbon continues to grow in popularity.</p>
+                    <br>
+                    <h3>The joy of reading during trips. Here are one of the benefits of curling up with a good book</h3>
+                    <p>
+                    Examine how reading can enhance cognitive function, empathy, and relaxation.
+                    The simple pleasure of reading during the winter comes down to a few comforting reasons While it may be a bit different for everyone, there’s only one basic necessity — having the world dissolve away as you get lost in a good book!
+                    Winter and curling up with a book go together. As the outside world turns cold and blustery, you won’t feel bad that you’ve stayed inside all day because, hey, you finally finished that novel on your “want to read” list.
+                    </p> <br><br>
+          </article>    
+        <h2>Recent Posts</h2>
+          <div class="container mb-4">
+            <div class="row">
+                <button class="btn btn-outline-dark my-2 addPost2">Add your posts here</button>
+                <div class="col-md-12 mt-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <a href="#">
+                                <img class="card-img-top" src="imgs/jamaica_pics.png" alt="">
+                            </a>
+                            <ul class="list-inline mt-3">
+                                <li class="list-inline-item"><i class="fas fa-user"></i> Tonia Lima</li>
+                                <li class="list-inline-item"><i class="far fa-clock"></i> July 25, 2024</li>
+                            </ul>
+                            <hr>
+                            <h4>An Island Paradise Adventure</h4>
+                            <p class="lead">My journey began in Kingston, the energetic capital of Jamaica. The city’s dynamic vibe is palpable, with music, art, and...</p>
+                            <a class="btn btn-outline-dark my-2" href="comments.html" role="button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 mt-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <a href="#">
+                                <img class="card-img-top" src="imgs/Santorini-Oia-16.png" alt="">
+                            </a>
+                            <ul class="list-inline mt-3">
+                                <li class="list-inline-item"><i class="fas fa-user"></i> Angela Simpson</li>
+                                <li class="list-inline-item"><i class="far fa-clock"></i> June 24, 2024</li>
+                            </ul>
+                            <hr>
+                            <h4>My Unforgettable Trip to Greece</h4>
+                            <p class="lead">Greece has always been on my travel bucket list, and I finally got the chance to explore its stunning landscapes...</p>
+                            <a class="btn btn-outline-dark my-2" href="#" role="button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 mt-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <a href="#">
+                                <img class="card-img-top" src="imgs/IndonesiaRaja.png" alt="">
+                            </a>
+                            <ul class="list-inline mt-3">
+                                <li class="list-inline-item"><i class="fas fa-user"></i> Tim Cutt</li>
+                                <li class="list-inline-item"><i class="far fa-clock"></i> June 10, 2024</li>
+                            </ul>
+                            <hr>
+                            <h4>Discovering Indonesia: A Journey of Cultural and Natural Wonders</h4>
+                            <p class="lead">My journey began in Jakarta, Indonesia’s vibrant capital. The city is a melting pot of modernity and tradition, with towering skyscrapers standing alongside historical...</p>
+                            <a class="btn btn-outline-dark my-2" href="#" role="button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    
+        <div class="col-md-5 py-5">
+          <div class="position-sticky" style="top: 2rem;">
+            <div class="p-4 mb-3 bg-body-tertiary rounded">
+              <h4 class="fst-italic">About Us</h4>
+              <p class="mb-0">Welcome to BlogTrip! We are team travelers with a passion for exploring the world’s hidden gems and sharing our adventures with our fellow travel enthusiasts. <a href="about.html"><i><strong>Read More</i></strong></a></p>
+            </div>
+    
+            <div>
+              <h4 class="fst-italic">Updates</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <img src="imgs/cp_mountain.png" width="100%" height="96" alt="">
+                    <div class="col-lg-8">
+                      <h6 class="mb-0">The mother city of Africa</h6>
+                      <small class="text-body-secondary">July15, 2024</small>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <img src="imgs/cocktail_trip.jpeg" width="100%" height="96" alt="">
+                    <div class="col-lg-8">
+                      <h6 class="mb-0">Our trip to Maldives</h6>
+                      <small class="text-body-secondary">July 10, 2024</small>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <img src="imgs/spain_trip.png" width="100%" height="96" alt="">
+                    <div class="col-lg-8">
+                      <h6 class="mb-0">Why Mallorca so special?</h6>
+                      <small class="text-body-secondary">July 07, 2024</small>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                    <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                        <img src="imgs/cocktails_beach.png" width="100%" height="96" alt="">
+                      <div class="col-lg-8">
+                        <h6 class="mb-0">Thirsty? Come join us in Cancun bar!</h6>
+                        <small class="text-body-secondary">July 01, 2024</small>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                        <img src="imgs/paris_disney.png" width="100%" height="96" alt="">
+                      <div class="col-lg-8">
+                        <h6 class="mb-0">10 things to know before coming to Disney Paris</h6>
+                        <small class="text-body-secondary">June 27, 2024</small>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                        <img src="imgs/resort_jama.png" width="100%" height="96" alt="">
+                      <div class="col-lg-8">
+                        <h6 class="mb-0">12 tips for visiting a Jamaican Resort</h6>
+                        <small class="text-body-secondary">June 26, 2024</small>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <img src="imgs/holland_amsterdan.png" width="100%" height="96" alt="">
+                      <div class="col-lg-8">
+                        <h6 class="mb-0">Autumn moments in Amsterdan</h6>
+                        <small class="text-body-secondary">June 20, 2024</small>
+                      </div>
+                    </a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </body>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+<script>
+  let pwd = document.getElementById("password");
+  let theClose = document.querySelector(".close");
+  let theBtn = document.querySelector(".addPost1");
+  let theBtn2 = document.querySelector(".addPost2");
+  let theMain = document.querySelector(".loginForm");
+  let overLay = document.querySelector(".overlay");
+
+  theBtn.addEventListener("click", function () {
+    theMain.classList.toggle("hide");
+    overLay.classList.toggle("hide");
+  });
+
+  theClose.addEventListener("click", function () {
+    theMain.classList.toggle("hide");
+    overLay.classList.toggle("hide");
+  });
+
+  theBtn2.addEventListener("click", function () {
+    theMain.classList.toggle("hide");
+    overLay.classList.toggle("hide");
+  });
+
+</script>
+</html>
